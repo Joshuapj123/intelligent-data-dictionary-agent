@@ -13,7 +13,7 @@ The system extracts schema metadata from PostgreSQL, performs deterministic prof
 
 System Architecture:
 
-![System Architecture](architecture_image_name.png)
+![System Architecture](architecture_image_name.png.png)
 
 Planned Tech Stack:
 
