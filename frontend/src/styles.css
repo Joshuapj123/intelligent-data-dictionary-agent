@@ -1,0 +1,68 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f6f7fb;
+}
+
+.app {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.upload-box {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 12px;
+}
+
+.badge.pii {
+  background: #ffe5e5;
+  color: #b00020;
+}
+
+.badge.safe {
+  background: #e6f6e6;
+  color: #1b5e20;
+}
+
+.meta {
+  font-size: 13px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.spinner {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.error {
+  background: #ffe5e5;
+  color: #b00020;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}

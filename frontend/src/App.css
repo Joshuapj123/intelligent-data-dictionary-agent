@@ -1,0 +1,50 @@
+.app {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 14px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.pii {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pii.high {
+  background: #ffcccc;
+}
+
+.pii.medium {
+  background: #fff3cd;
+}
+
+.pii.low {
+  background: #d4edda;
+}
+
+.doc {
+  background: #f7f7f7;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  white-space: pre-wrap;
+}
